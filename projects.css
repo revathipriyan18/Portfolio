@@ -1,0 +1,116 @@
+.skills-box:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+  .title {
+    margin: 4rem 0 7rem 0;
+    text-align: center;
+  }
+  
+  .title h1 {
+    font-family: 'Montserrat', sans-serif;
+      margin-top: 40px;
+    font-size: 2rem;
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+    /* color: grey; */
+  }
+  
+  .title h1::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -40%;
+    transform: translate(-50%, -50%);
+    background-color:rgb(194, 68, 68);
+    border-radius: 10px;
+    width: 50%;
+    height: 0.4rem;
+    z-index: 1;
+  }
+  
+  .skills-box h4 {
+    font-size: 1rem;
+    color: #888;
+    font-size: 500;
+  }
+  
+  .skills-box .skills-ilt {
+    width: 100%;
+    position: relative;
+    height: 0.4rem;
+    background-color: #ccc;
+    border-radius: 0.5rem;
+  }
+  
+  .skills-box .skills-bar {
+    background-color: rgb(206, 131, 62);
+    height: 0.4rem;
+    /* opacity: 0; */
+    transition: 1s ease 0.3s;
+  }
+  
+  .skills-box .html {
+    width: 85%;
+  }
+  
+  .skills-box .css {
+    width: 85%;
+  }
+  
+  .skills-box .javascript {
+    width: 90%;
+  }
+  
+  .skills-box .nodejs {
+    width: 80%;
+  }
+  
+  .skills-box .mongodb {
+    width: 95%;
+  }
+  
+  .skills-box span {
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+    font-size: 1.4rem;
+  }
+  
+  .skills-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    
+
+  }
+  
+  .right h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .right p {
+    margin-bottom: 2rem;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .skills-center {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  #abt-me-1
+  {
+      gap: 1rem;
+  }
+
+  .skill-entire
+  {
+      width: 100%;
+      background-color: rgb(247, 247, 247);
+      height: 70vh;
+  }
+
+/* jquery button */
+
+
